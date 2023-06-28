@@ -16,6 +16,7 @@ public class Main {
             while (num != 0) {
                 sum += num % 10;
                 num /= 10;
+                System.out.println(num +" "+  sum);
             }
             if( sum + i == N){
                 result = i;
